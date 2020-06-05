@@ -1,0 +1,37 @@
+##Create a program that will ask for a username and then a password.
+##If the username or password length is less than 6 charecters give a too short message.
+if the username or password length is greater than 12 charecters give a too long message
+Have the user confirm the password in again.
+If the passwords match give a sucess message
+if the passwords do not match give a mismatch message
+If the password is only numbers give a message that says it cannot be a number.
+(challange) have only one print statement in the whole program. 
+
+user_greet = '\nPlease enter username:\n'
+pass_greet1 = '\nPlease enter password:\n'
+pass_greet2 = '\nPlease confirm password:\n'
+
+
+user_input = input(user_greet)
+if not user_input
+    print('You must enter a password')
+else:
+    if len(user_input) < 6 or len(user_input > 12)
+    print('Username must be between 6-12 characters.')
+
+pass_input = input(pass_greet1)
+if len(pass_input) > 12 or lent(pass_input < 6)
+    print('Password must be between 6-12 characters.')
+else:
+    print(pass_greet2)
+
+pass_input2 = input(pass_greet2)
+if pass_input != pass_input2
+    print('Passwords must match')
+    else: 
+        if pass_input == pass_input2
+        print('Success! Your passwords match.')
+
+
+
+
